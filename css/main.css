@@ -16,7 +16,7 @@
 }
 
 body {
-  /* Establece la fuente de Google aquí */
+  font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
@@ -35,3 +35,36 @@ a {
 a:hover {
   color: #E95853;
 }
+/* se aplica un font de 700 para pasar a bold, paggin para el espacio*/
+.link{
+  font-weight: 700;
+  padding:21px;
+  display:inline-block;
+}
+.logo{
+  float:right;
+}
+header{
+  position:fixed;
+  background:white;
+  width: 100%;
+  top:0;
+}
+.menu{
+  padding:14px 70px;
+  overflow: auto;
+}
+#home{
+  background-image: url(../assets/images/bg-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 554px;
+  text-align: center;
+  margin-top: 80px;
+}
+#home .container{
+  color:white;
+  padding: 70px;
+}
+.text-home{}
