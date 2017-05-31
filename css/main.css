@@ -103,3 +103,13 @@ footer{
   color: white;
   padding-top: 7px;
 }
+.hero{
+  width: 100%;
+}
+#work h1, p{
+  text-align: center;
+}
+#work img{
+  max-width: 100%;
+  height: auto;
+}
