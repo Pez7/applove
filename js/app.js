@@ -2,10 +2,10 @@
  * Archivo principal de funcionalidad de JS
  */
  (function main() {
-    var boxes = Array.from(document.getElementsByClassName('col-4'));
+    var caja = Array.from(document.getElementsByClassName('col-4'));
     var modal = document.getElementById('col-4-modal');
     var bodyModal, close, img;
-    boxes.forEach(function(box) {
+    caja.forEach(function(box) {
         box.addEventListener('click', function() {
             // Borro todo lo que esta dentro del modal
             modal.innerHTML = '';
